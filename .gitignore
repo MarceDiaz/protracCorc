@@ -1,0 +1,5 @@
+node_modules/
+npm-debug.log
+multidep_modules
+protractor-cucumber-framework-test*.json
+.idea/
