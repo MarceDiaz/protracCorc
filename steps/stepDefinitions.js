@@ -14,7 +14,7 @@ defineSupportCode(function({Given, When, Then}) {
 */
 
    
-   Given('I go to {string}', function (site,callback) {
+   Given('I load the web {string}', function (site,callback) {
         browser.waitForAngularEnabled(false);
         browser.get(site); /*.then(function(){
         //var el=element(by.model('todoList.todoText')).then(function(el){
