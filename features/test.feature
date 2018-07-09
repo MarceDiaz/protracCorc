@@ -7,6 +7,6 @@ Feature: Running Cucumber with Protractor
 
     Scenario: Protractor and Cucumber Test
         Given I load the web "https://corcoran.com"
-        When I add "Be Awesome" in the task field
-        And I click the add button
-        Then I should see my new task in the list
+        When I check something "Be Awesome"
+        And I click some button
+        Then I should validate that condition
